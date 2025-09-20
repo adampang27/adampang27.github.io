@@ -1,5 +1,7 @@
 ---
-title: Adam Pang's Portfolio
+layout: home
+title: "Adam Pang's Portfolio"
+permalink: /
 ---
 
 # About Me
@@ -14,4 +16,4 @@ This website will serve as my portfolio for the projects I complete in my class.
 
 ---
 
-- [Project 1 — Sandwich Maker](project1.html)
+- [Project 1 — Sandwich Maker](project1.md)
