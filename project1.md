@@ -3,7 +3,7 @@ layout: default
 title: "Project 1"
 ---
 ---
-title: "Student Dropout Analysis"
+Student Dropout Analysis
 ---
 
 # Introduction
