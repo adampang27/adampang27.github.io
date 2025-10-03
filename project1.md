@@ -37,7 +37,7 @@ The data comes from **UCI’s Machine Learning Repository**:
 ---
 
 ## Data Preprocessing
-![Alt text](.github/Preprocessing.png)
+![Alt text](Preprocessing.png)
 - No missing or null values were found.  
 - Most features were numeric, with the exception of the target variable (categorical).
 
