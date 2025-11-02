@@ -1,14 +1,13 @@
 ---
 layout: default
 title: "Project 1"
----
----
+
 # Student Dropout Analysis
 ---
 
 # Introduction
 
-So as we all know, higheEditr education is a powerful gateway that unlocks opportunities for all people. However, not everyone is able to finish their educational goals and some outright fail out. 
+So as we all know higher education is a powerful gateway that unlocks opportunities for all people. However, not everyone is able to finish their educational goals and some outright fail out. 
 In this analysis, we will be looking at the factors that could contribute to student dropout and what makes certain students succeed.
 
 ## Research Questions
