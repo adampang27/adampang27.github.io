@@ -36,7 +36,7 @@ The data comes from **UCI’s Machine Learning Repository**:
 ---
 
 ## Data Preprocessing
-![Alt text](Project1(Preprocessing1).png)
+![Alt text](adampang27.github.io\images\Project1(Preprocessing1).png)
 - No missing or null values were found.  
 - Most features were numeric, with the exception of the target variable (categorical).
 
@@ -62,5 +62,5 @@ This highlights that many factors beyond academics (e.g., financial challenges, 
 
 This changes how we should think about helping students. 
 To truly ensure that students are gaining the education they deserve, we need to find things out like: Are they engaged in class? Do they have substantial debt? 
-To truly help, the goal is to catch students who are struggling for any reason, not just an academic one.
+The goal is to catch students who are struggling for any reason, not just an academic one.
 
