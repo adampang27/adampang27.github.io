@@ -1,1 +1,0 @@
-# adampang27.github.io
