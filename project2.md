@@ -32,7 +32,7 @@ Three different models were tried for this classification problem:
 *   **KNN Accuracy:** 0.657
 *   **Decision Tree Accuracy:** 0.720
 
-![Confusion Matrices](Project2\Images\confusion_matrices.png)
+![Confusion Matrices](Project2/Images/confusion_matrices.png)
 
 ## Storytelling & Insights
 Looking at the feature importance plots, **Physical Health (`Physical_Health`)** clearly stands out as the strongest signal across both models. **Mental Health (`Mental_Health`)** also shows up as important, especially in the decision tree, which tends to split on those two first.
