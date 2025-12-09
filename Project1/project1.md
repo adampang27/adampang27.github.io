@@ -43,9 +43,9 @@ The data comes from **UCI’s Machine Learning Repository**:
 ---
 
 ## Visualizations
-![](Project1\Images\admission_grade_distribution.png)
-![](Project1\Images\first_sem_units_approved.png)
-![](Project1\Images\scholarship_status.png)
+![Alt](Project1\Images\admission_grade_distribution.png)
+![Alt](Project1\Images\first_sem_units_approved.png)
+![Alt](Project1\Images\scholarship_status.png)
 
 ---
 
