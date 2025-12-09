@@ -87,3 +87,5 @@ The dataset is purely quantitative. We are missing the student's individual voic
 
 ## References
 Realinho, V., Machado, J., Baptista, L., & Martins, M. (2021). Predict Students' Dropout and Academic Success. UCI Machine Learning Repository. 
+
+[Link to Notebook](Project1\Project1.ipynb)
