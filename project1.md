@@ -5,7 +5,7 @@ title: "Project 1"
 # Student Dropout Analysis
 ---
 
-# Introduction
+## Introduction
 
 So as we all know higher education is a powerful gateway that unlocks opportunities for all people. However, not everyone is able to finish their educational goals and some outright fail out. 
 In this analysis, we will be looking at the factors that could contribute to student dropout and what makes certain students succeed.
@@ -36,13 +36,14 @@ The data comes from **UCI’s Machine Learning Repository**:
 ---
 
 ## Data Preprocessing
-![Preprocessing Check](Project1\Images\Project1(Preprocessing1).png)
+![Preprocessing Check](Project1\Images\Preprocessing.png)
 - No missing or null values were found.  
 - Most features were numeric, with the exception of the target variable (categorical).
 
 Initially, the dataset failed to load correctly because it uses semicolons (;) as delimiters instead of the standard comma. 
 So I implemented a check to detect this and correctly parse the 36 columns. 
 I also verified that there were no missing values or duplicate records to ensure data integrity.
+
 ---
 
 ## Visualizations
@@ -66,8 +67,9 @@ The analysis of first-semester performance shows a clear distinction.
 Students who approved more curricular units in their first semester were significantly more likely to graduate. Dropouts, on average, approved far fewer units, suggesting that early academic struggles are a strong warning sign.
 
 Socioeconomic Factors:
-The scholarship data reveals a crucial insight: a higher proportion of scholarship holders are in the 'Graduate' category compared to the 'Dropout' category. 
+The scholarship data reveals a crucial insight. A higher proportion of scholarship holders are in the 'Graduate' category compared to the 'Dropout' category. 
 This suggests that financial support may play a vital role in student retention, allowing them to focus more on their studies.
+
 ---
 
 ## Impact
@@ -82,3 +84,6 @@ For example, students from lower socioeconomic backgrounds might be flagged as "
 
 Missing Perspectives:
 The dataset is purely quantitative. We are missing the student's individual voice. ualitative data on why they dropped out (e.g., mental health, family emergencies, or lack of belonging) which numbers alone cannot capture.
+
+## References
+Realinho, V., Machado, J., Baptista, L., & Martins, M. (2021). Predict Students' Dropout and Academic Success. UCI Machine Learning Repository. 
