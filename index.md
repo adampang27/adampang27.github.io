@@ -15,4 +15,4 @@ This website will serve as my portfolio for the projects I complete in my class.
 
 ---
 
-- [Project 1](adampang27.github.io\Project1\project1.md)
+- [Project 1](Project1\project1.md)
