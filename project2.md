@@ -56,4 +56,4 @@ Overall, this still points toward the idea that worse physical and mental health
 2. Scikit-learn documentation.
 
 ## Code
-[Link to Project 2 Notebook](https://github.com/adampang27/adampang27.github.io/blob/main/Project%202/Project2.ipynb)
+[Link to Project 2 Notebook](https://github.com/adampang27/adampang27.github.io/blob/main/Project2/Project2.ipynb)
