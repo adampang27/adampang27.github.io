@@ -52,7 +52,7 @@ Overall, this still points toward the idea that worse physical and mental health
 *   **Missing Perspectives:** The dataset does not include detailed medical history or any deeper background information. It is based on self-reported scores, which can be biased (for example, someone might under-report their stress or sleep problems), so the picture is not complete.
 
 ## References
-1. NPHA Doctor Visits Dataset.
+1. University of Michigan. *National Poll on Healthy Aging (NPHA) – Doctor Visits*. UCI Machine Learning Repository. https://archive.ics.uci.edu/dataset/936/national+poll+on+healthy+aging+(npha)
 2. Scikit-learn documentation.
 
 ## Code
