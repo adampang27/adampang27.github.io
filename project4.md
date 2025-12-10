@@ -48,7 +48,7 @@ I tried 2–6 clusters and, for each value of k, ran **K-Means** and then **Aggl
 The low ARI scores suggest that the natural clusters found by the algorithms do **not** align well with the breed labels. This means the cats are grouping based on other traits (like geography or size) rather than just their breed.
 
 ## Storytelling (Cluster Analysis)
-After forming the clusters, I analyzed the "profiles" of each group to see what made them unique.
+After forming the clusters, I analyzed the profiles of each group to see what made them unique.
 *   **Cluster Profiles:** I looked at the average weight, play time, and sleep time for each cluster.
 *   **Visualizing Separation:** I used **PCA (Principal Component Analysis)** to combine the data down to 2 dimensions so I could plot it. This helped me see if the clusters were well-separated or if they overlapped a lot.
 
