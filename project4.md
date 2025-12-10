@@ -9,7 +9,7 @@ Instead of just relying on breed labels, I want to see what the data says. The m
 *   Do different clustering algorithms (K-Means vs. Agglomerative) find the same patterns?
 
 ## What is Clustering and How Does It Work?
-Clustering is a way of grouping data points so that items in the same group (or "cluster") are more similar to each other than to those in other groups. For this project, I used two different methods:
+Clustering is a way of grouping data points so that items in the same group/cluster are more similar to each other than to those in other groups. For this project, I used two different methods:
 
 1.  K-Means Clustering: This algorithm tries to find k center points (centroids) and assigns every cat to the nearest center. It keeps moving the centers until the groups are stable. It works best when clusters are round and roughly the same size.
 2.  Agglomerative Clustering: This is approach starts up from the bottom. It starts by treating every single cat as its own cluster and then keeps merging the two most similar clusters until we reach the desired number of groups. It builds a hierarchy like a family tree.
@@ -75,14 +75,14 @@ The analysis revealed two main clusters that seem to be driven largely by **geog
 ![PCA Cluster Visualization](Project4/Images/pca_clusters.png)
 
 ## Impact Section
-*   **Potential Benefits:** This kind of analysis could help animal shelters match cats to owners based on lifestyle (e.g., "needs high activity") rather than just breed stereotypes. It could also help pet product companies target specific segments of cat owners.
-*   **Potential Harm:** If people take these clusters too seriously, they might stereotype cats even more. For example, assuming all cats in a certain cluster are "friendly" could lead to bad adoption matches if an individual cat is actually shy.
-*   **Missing Perspectives:** The data is self-reported, so "Play Time" might be exaggerated by owners. We also lack medical history, which is a huge part of a cat's life.
+*   **Potential Benefits:** Even though the clusters mainly separate cats by location and size (smaller, younger European cats vs. larger, older U.S. cats), this still shows how environment and basic care patterns can shape groups. In a broader setting, similar analyses could help shelters or vets think about how housing, region, or body size relate to activity and care needs, instead of relying only on breed labels.
+*   **Potential Harm:** The low ARI scores and the strong geographic signal mean these clusters are a rough pattern in this dataset, not fixed "types" of cats. Treating them as hard categories (for example, assuming all big U.S. cats are lazy or all smaller European cats are the same) could encourage oversimplified or unfair assumptions.
+*   **Missing Perspectives:** The data only covers a few breeds and countries, and it focuses on simple measurements and owner-reported behavior. Important things like health history, more detailed behavior, and different regions are missing, so the location/size split I found should not be generalized too far beyond this dataset.
 
 ## References
 *   Scikit-learn Documentation: [Clustering](https://scikit-learn.org/stable/modules/clustering.html)
 *   Seaborn Documentation: [Visualizations](https://seaborn.pydata.org/)
-*   Joanna Nplkrk. "It's Raining Cats" dataset. Kaggle. https://www.kaggle.com/datasets/joannanplkrk/its-raining-cats
+*   JoannaN_PL_KRK. "It's Raining Cats" dataset. Kaggle. https://www.kaggle.com/datasets/joannanplkrk/its-raining-cats
 
 ## Code
 [Link to Project 4 Notebook](https://github.com/adampang27/adampang27.github.io/blob/main/Project4/Project4.ipynb)
