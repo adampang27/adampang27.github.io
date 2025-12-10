@@ -1,12 +1,9 @@
 # Project 4: Clustering Cat Breeds
 
 ## Introduce the Problem
-Cats are one of the most popular pets in the world, but how different are they really? In this project, I am using clustering techniques to see if we can find natural groupings of cat breeds based on their physical traits, lifestyle, and caretaking patterns. 
+Cats are one of the most popular pets in the world, but how different are they really? In this project, I use clustering to see how cats group together based on their physical traits, daily routines, and where they live.
 
-Instead of just relying on breed labels, I want to see what the data says. The main questions I am trying to answer are:
-*   Do cats naturally group together by breed, or do they form clusters based on other things like size or activity level?
-*   Which features (like body length, outdoor access, or play time) are the most important for defining these groups?
-*   Do different clustering algorithms (K-Means vs. Agglomerative) find the same patterns?
+Rather than assuming that breed alone tells the whole story, I wanted to see what patterns actually show up in the data. In particular, I was curious whether groups would form more around breed labels or around other factors like body size, activity, or location.
 
 ## What is Clustering and How Does It Work?
 Clustering is a way of grouping data points so that items in the same group/cluster are more similar to each other than to those in other groups. For this project, I used two different methods:
