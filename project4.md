@@ -86,6 +86,7 @@ It turns out the biggest difference wasn't "Indoor vs. Outdoor" or "Tabby vs. So
 ## References
 *   Scikit-learn Documentation: [Clustering](https://scikit-learn.org/stable/modules/clustering.html)
 *   Seaborn Documentation: [Visualizations](https://seaborn.pydata.org/)
+*   Joanna Nplkrk. "It's Raining Cats" dataset. Kaggle. https://www.kaggle.com/datasets/joannanplkrk/its-raining-cats
 
 ## Code
-[Link to Project 4 Notebook](Project4/Project4.ipynb)
+[Link to Project 4 Notebook](https://github.com/adampang27/adampang27.github.io/blob/main/Project4/Project4.ipynb)
