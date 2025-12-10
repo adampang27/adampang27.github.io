@@ -1,9 +1,8 @@
 # Project 2: Predicting High Doctor Visits
 
 ## Introduce the Problem
-This project looks at whether a patient will have a **high number of doctor visits** (here, 4 or more per year) based on their health and basic demographic information. In other words, it is a classification problem: the goal is to separate people into "high" and "low" doctor-visit groups so we can get a better sense of who might need more care.
+This project looks at whether a patient will have a **high number of doctor visits** (here, 4 or more per year) based on their health and basic demographic information. In other words, it is a classification problem. The goal is to separate people into "high" and "low" doctor-visit groups so we can get a better sense of who might need more care.
 
-In simple terms, the main questions are:
 * Which patients are most likely to end up in the **high‑visits** group?
 * Which health, sleep, or background features seem most connected to frequent doctor visits?
 
@@ -39,8 +38,6 @@ Three different models were tried for this classification problem:
 *   **Decision Tree Accuracy:** 0.720
 
 ![Confusion Matrices](Project2/Images/confusion_matrices.png)
-
-Accuracy was used as the main metric here because, after choosing a cutoff for "High Visits," the classes ended up reasonably balanced. The confusion matrices are helpful for seeing **how** the models are wrong, not just how often they are right—for example, whether they are more likely to miss high‑visit patients (false negatives) or to flag too many low‑visit patients as high (false positives).
 
 ## Storytelling & Insights
 Looking at the feature importance plots, **Physical Health (`Physical_Health`)** clearly stands out as the strongest signal across both models. **Mental Health (`Mental_Health`)** also shows up as important, especially in the decision tree, which tends to split on those two first.

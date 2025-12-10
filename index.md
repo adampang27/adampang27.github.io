@@ -17,4 +17,6 @@ This website will serve as my portfolio for the projects I complete in my class.
 
 - [Project 1](project1.md)
 - [Project 2](project2.md)
+- [Project 3](project3.md)
+- [Project 4](project4.md)
 
