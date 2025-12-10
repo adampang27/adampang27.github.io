@@ -77,8 +77,6 @@ The analysis revealed two main clusters that seem to be driven largely by **geog
 *   **Missing Perspectives:** The data only covers a few breeds and countries, and it focuses on simple measurements and owner-reported behavior. Important things like health history, more detailed behavior, and different regions are missing, so the location/size split I found should not be generalized too far beyond this dataset.
 
 ## References
-*   Scikit-learn Documentation: [Clustering](https://scikit-learn.org/stable/modules/clustering.html)
-*   Seaborn Documentation: [Visualizations](https://seaborn.pydata.org/)
 *   JoannaN_PL_KRK. "It's Raining Cats" dataset. Kaggle. https://www.kaggle.com/datasets/joannanplkrk/its-raining-cats
 
 ## Code
