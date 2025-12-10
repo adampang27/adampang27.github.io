@@ -31,7 +31,7 @@ The dataset used for this analysis is `cat_breeds_clean.csv`. It contains inform
 *   Looked at latitude and longitude to see whether location might matter.
 
 ## Pre-processing the Data
-To prepare the data for clustering, I:
+To prepare the data for clustering, I did the following:
 
 1.  Converted `Neutered_or_spayed` and `Allowed_outdoor` from text ("TRUE"/"FALSE") to boolean values.
 2.  One-hot encoded the categorical columns so the models could work with them.
