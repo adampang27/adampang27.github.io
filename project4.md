@@ -71,7 +71,7 @@ The analysis revealed two main clusters that seem to be driven largely by **geog
 
 ![PCA Cluster Visualization](Project4/Images/pca_clusters.png)
 
-## Impact Section
+## Impacts
 *   **Potential Benefits:** Even though the clusters mainly separate cats by location and size (smaller, younger European cats vs. larger, older U.S. cats), this still shows how environment and basic care patterns can shape groups. In a broader setting, similar analyses could help shelters or vets think about how housing, region, or body size relate to activity and care needs, instead of relying only on breed labels.
 *   **Potential Harm:** The low ARI scores and the strong geographic signal mean these clusters are a rough pattern in this dataset, not fixed "types" of cats. Treating them as hard categories (for example, assuming all big U.S. cats are lazy or all smaller European cats are the same) could encourage oversimplified or unfair assumptions.
 *   **Missing Perspectives:** The data only covers a few breeds and countries, and it focuses on simple measurements and owner-reported behavior. Important things like health history, more detailed behavior, and different regions are missing, so the location/size split I found should not be generalized too far beyond this dataset.
